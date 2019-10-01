@@ -1,0 +1,6 @@
+# Name the command that lists the partition tables of drives?
+
+lsblk
+fdisk -l
+
+# for fdisk -l use sudo
