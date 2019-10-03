@@ -1,0 +1,3 @@
+# command that list all packages
+
+apt list --installed

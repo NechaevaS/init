@@ -1,0 +1,5 @@
+# Find the command that add a new local user
+
+adduser [user_name]
+
+#use sudo -s
