@@ -2,4 +2,5 @@
 
 adduser [user_name]
 
-#use sudo -s
+#use sudo
+#for check use getent passwd | grep home | cut -d ':' -f1

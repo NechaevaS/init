@@ -1,0 +1,9 @@
+# Explain how connect yourself as new user.
+# (With graphic session and ssh session)
+
+Graphic Session:    login
+                    passwd
+
+Terminal Session: su [user_name]
+
+SSH Session: ssh [user_name]@[host_address]

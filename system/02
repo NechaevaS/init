@@ -1,3 +1,6 @@
 #What command can you use to rename your system?
 
 hostname [newname]
+
+#use sudo
+#for check use uname -a

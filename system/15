@@ -1,3 +1,5 @@
 # command that kills the background command’s process
 
 pkill tail
+
+#use sudo

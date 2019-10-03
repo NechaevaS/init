@@ -2,4 +2,3 @@
 
 ifconfig en0 | grep 'inet ' | awk '{print $2}'
 
-ip addr | grep dynamic

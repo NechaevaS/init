@@ -1,3 +1,6 @@
-#telnet towel.blinkenlights.nl
 
-curl http://artscene.textfiles.com/asciiart/panda
+if [ ! "$#" = "1" ] ; then
+    echo "Usage: $0 [panda or pegasus or penguin ]"
+    exit 1
+fi
+curl http://artscene.textfiles.com/asciiart/$1
